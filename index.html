@@ -4,10 +4,33 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Document</title>
+    <link rel="shortcut icon" href="./img/duck.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN' crossorigin='anonymous'>
-  </head>
+</head>
   <body>
-        <h1>Hello World!</h1>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark text-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/duck.png" alt="duck" width="50" height="50">
+                </a>
+                <button class="navbar-toggler border-secondary text-secondary-emphasis" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="text-secondary">
+                        <i class="fa-solid fa-bars fa-lg"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-link active text-white" aria-current="page" href="#">Catalogo Libri</a>
+                    <a class="nav-link text-white-50" href="#">Anagrafica Utenti</a>
+                    <a class="nav-link text-white-50" href="#">Storico Prestiti</a>
+                    <a class="nav-link text-white-50 disabled" aria-disabled="true">Help</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
     <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js' integrity='sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL' crossorigin='anonymous'></script>
   </body>
 </html>
